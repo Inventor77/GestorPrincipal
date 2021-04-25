@@ -1,0 +1,35 @@
+{
+  "name": "gestorprincipal",
+  "version": "1.0.0",
+  "description": "##### _TO MANAGE LEADS IN SPAIN, YOU'D SAY \"GESTOR PRINCIPAL\"_",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./GestorPrincipal/frontend/src/index.js --output-path ./GestorPrincipal/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./GestorPrincipal/frontend/src/index.js --output-path ./GestorPrincipal/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inventor77/GestorPrincipal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inventor77/GestorPrincipal/issues"
+  },
+  "homepage": "https://github.com/Inventor77/GestorPrincipal#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
