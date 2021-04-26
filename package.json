@@ -4,8 +4,8 @@
   "description": "##### _TO MANAGE LEADS IN SPAIN, YOU'D SAY \"GESTOR PRINCIPAL\"_",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./GestorPrincipal/frontend/src/index.js --output-path ./GestorPrincipal/frontend/static/frontend/main.js",
-    "build": "webpack --mode production ./GestorPrincipal/frontend/src/index.js --output-path ./GestorPrincipal/frontend/static/frontend/main.js"
+    "dev": "webpack --mode development ./GestorPrincipal/frontend/src/index.js --output-path ./GestorPrincipal/frontend/static/frontend",
+    "build": "webpack --mode production ./GestorPrincipal/frontend/src/index.js --output-path ./GestorPrincipal/frontend/static/frontend"
   },
   "repository": {
     "type": "git",
